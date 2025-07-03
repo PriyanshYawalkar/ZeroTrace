@@ -21,7 +21,7 @@ export default function Navbar() {
             <div
                 className={`w-full md:flex md:items-center md:w-auto transition-all duration-300 ease-in-out ${menuOpen ? 'block' : 'hidden'} md:block`}
             >
-                <div className="flex flex-col md:flex-row md:space-x-6 mt-4 md:mt-0">
+                <div className="flex flex-col md:flex-row md:space-x-6 mt-4 md:mt-0 md:ml-auto">
                     <Link href="/" className="text-green-400 hover:text-white py-2 md:py-0">Home</Link>
                     <Link href="/about" className="text-green-400 hover:text-white py-2 md:py-0">About Us</Link>
                     <Link href="/submit" className="text-green-400 hover:text-white py-2 md:py-0">Submit</Link>
