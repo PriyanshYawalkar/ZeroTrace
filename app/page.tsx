@@ -49,9 +49,9 @@ export default function HomePage() {
         <h1 className="text-3xl md:text-5xl glitch text-red-500 mb-4">
           ZeroTrace Capture the Flag
         </h1>
-        <p className="text-md md:text-lg text-lime-400 mb-8">
+        {/* <p className="text-md md:text-lg text-lime-400 mb-8">
           Welcome, player. Find the 3 hidden flags. Trust no UI.
-        </p>
+        </p> */}
 
         {showStart ? (
           // Uncomment this when the CTF goes live
