@@ -24,3 +24,59 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* === Glitch Text Effect === */
+.glitch {
+  position: relative;
+  color: white;
+  font-family: 'Courier New', monospace;
+  animation: glitch 1s infinite;
+}
+
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.glitch::before {
+  animation: glitchTop 1s infinite;
+  color: #f0f;
+  top: -2px;
+}
+
+.glitch::after {
+  animation: glitchBottom 1s infinite;
+  color: #0ff;
+  top: 2px;
+}
+
+@keyframes glitch {
+  0% { transform: none; }
+  20% { transform: skew(-0.5deg, -0.9deg); }
+  40% { transform: skew(0.8deg, -0.1deg); }
+  60% { transform: skew(-1.0deg, 0.2deg); }
+  80% { transform: skew(0.3deg, 0.5deg); }
+  100% { transform: none; }
+}
+
+@keyframes glitchTop {
+  0% { transform: translate(0, 0); }
+  20% { transform: translate(-2px, -2px); }
+  40% { transform: translate(-1px, 1px); }
+  60% { transform: translate(3px, 1px); }
+  80% { transform: translate(-1px, -1px); }
+  100% { transform: translate(0, 0); }
+}
+
+@keyframes glitchBottom {
+  0% { transform: translate(0, 0); }
+  20% { transform: translate(2px, 2px); }
+  40% { transform: translate(1px, -1px); }
+  60% { transform: translate(-3px, -1px); }
+  80% { transform: translate(1px, 1px); }
+  100% { transform: translate(0, 0); }
+}
