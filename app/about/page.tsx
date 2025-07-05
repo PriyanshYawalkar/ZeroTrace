@@ -17,7 +17,7 @@ export default function AboutPage() {
 
                 <p className="text-lime-300 text-md leading-relaxed mb-6">
                     <strong>ZeroTrace CTF</strong> is a hacker-themed capture the flag competition that blends
-                    curiosity, logic, and a little paranoia. Inspired by shows like Mr. Robot and the thrill
+                    curiosity, logic, and a little paranoia. Inspired by shows like Mr. Robot, sometimes a small login can help you to get something and the thrill
                     of digital puzzles, it&#39;s a 3-hour web-based adventure filled with flags hidden in plain sight,
                     buried in code, and locked behind clever tricks.
                 </p>
