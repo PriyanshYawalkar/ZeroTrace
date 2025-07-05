@@ -10,6 +10,10 @@ export default function HomePage() {
     window.scrollTo(0, 0);
   }, []);
 
+  const handleStart = () => {
+    router.push("/rules"); // Update this route if needed
+  };
+
   return (
     <div className="bg-black text-green-400 min-h-screen font-mono px-4 py-6 relative">
       <div className="absolute top-4 left-1/2 -translate-x-1/2">
@@ -29,15 +33,6 @@ export default function HomePage() {
           Thank you for playing! The CTF has officially ended.
         </p>
         <p>See you soon!</p>
-
-        {/* 
-        <button
-          onClick={handleStart}
-          className="mt-6 px-6 py-3 border border-green-500 text-white bg-black hover:bg-green-900 transition rounded"
-        >
-          ▶ Start the Game
-        </button>
-        */}
 
         <p className="mt-8 text-sm text-gray-500 italic">
           🏁 Stay tuned for more challenges from GDG-SSTC. Until then... happy hacking!
