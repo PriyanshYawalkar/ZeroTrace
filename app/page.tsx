@@ -30,18 +30,21 @@ export default function HomePage() {
           ZeroTrace Capture the Flag
         </h1>
         <p className="text-md md:text-lg text-lime-400 mb-8">
-          Welcome, player. Find the 3 hidden flags. Trust no UI.
+          Thank you for playing! The CTF has officially ended.
         </p>
+        <p>See you soon!</p>
 
+        {/* 
         <button
           onClick={handleStart}
           className="mt-6 px-6 py-3 border border-green-500 text-white bg-black hover:bg-green-900 transition rounded"
         >
           ▶ Start the Game
         </button>
+        */}
 
         <p className="mt-8 text-sm text-gray-500 italic">
-          💀 This game is best played with your dev tools open.
+          🏁 Stay tuned for more challenges from GDG-SSTC. Until then... happy hacking!
         </p>
       </div>
     </div>
