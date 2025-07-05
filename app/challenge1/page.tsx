@@ -27,11 +27,11 @@ export default function Challenge1() {
                 <div className="mt-6">
                     <a
                         target="_blank"
-                        href="https://drive.google.com/drive/folders/1PoeHYd3jxm8HWGtP-gAVs900A2J72P-C?usp=sharing"
+                        href="/seeyounexttime"
                         download
                         className="bg-red-600 hover:bg-red-800 text-white px-6 py-2 rounded shadow-md transition"
                     >
-                        ⬇ Download the Files
+                        See you next time!
                     </a>
                 </div>
 

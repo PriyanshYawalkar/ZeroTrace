@@ -6,7 +6,7 @@ export default function FinalFlag() {
 
             <div className="bg-zinc-900 border border-green-500 p-6 rounded-md shadow-lg max-w-xl">
                 <p className="text-md">Here’s what you came for:</p>
-                <pre className="bg-black text-lime-400 mt-4 p-4 rounded overflow-x-auto">FLAG&#123;C0ngrats_Y0u_Got_T#3_F!@g&#125;</pre>
+                <pre className="bg-black text-lime-400 mt-4 p-4 rounded overflow-x-auto">FLAG&#123;T#3_CTF_!s_Ov3r&#125;</pre>
             </div>
 
             <p className="mt-8 text-sm italic text-gray-400">🎉 You completed the ZeroTrace CTF. Share your flag, not your secrets.</p>
