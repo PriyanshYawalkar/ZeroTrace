@@ -1,18 +1,11 @@
 "use client";
 import { useEffect } from "react";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
 
 export default function HomePage() {
-  const router = useRouter();
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
-  const handleStart = () => {
-    router.push("/rules"); // Update this route if needed
-  };
 
   return (
     <div className="bg-black text-green-400 min-h-screen font-mono px-4 py-6 relative">
@@ -32,10 +25,10 @@ export default function HomePage() {
         <p className="text-md md:text-lg text-lime-400 mb-8">
           Thank you for playing! The CTF has officially ended.
         </p>
-        <p>See you soon!</p>
+        <p className="text-lg text-green-300 mb-4">🏁 See you again in the next round!</p>
 
         <p className="mt-8 text-sm text-gray-500 italic">
-          🏁 Stay tuned for more challenges from GDG-SSTC. Until then... happy hacking!
+          🧠 Stay tuned for more challenges from GDG-SSTC. Until then... happy hacking!
         </p>
       </div>
     </div>
